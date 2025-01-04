@@ -71,7 +71,7 @@ def continue_training(existing_model_path, new_images_dir, new_ground_truth_dir,
     return training_dir
 
 if __name__ == "__main__":
-    # Example usage
+    
     training_dir = continue_training(
         existing_model_path="/Users/rishikeshanand/Documents/Projects/fine-tuning-ocr/eng.traineddata",
         new_images_dir="/Users/rishikeshanand/Documents/Projects/fine-tuning-ocr/images",
